@@ -1,0 +1,12 @@
+Package: mdgr
+Version: 0.0.0.9000
+Title: Personal R Package
+Description: Currently used to hold custom ggplot themes. Colors to be added at some point.
+Authors@R: person("Michael", "Groesbeck", email = "mdgbeck@gmail.com", role = c("aut", "cre"))
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+ByteCompile: true
+Imports: 
+    ggplot2
+RoxygenNote: 6.0.1
