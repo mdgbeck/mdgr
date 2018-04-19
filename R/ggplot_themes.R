@@ -8,15 +8,16 @@
 #' @import ggplot2
 
 #' @param base_size base font size
+#' @param base_family base font family
 #'
 #' @export
 #'
 #' @examples
 #' library('ggplot2)
 #' ggplot(mtcars) + geom_point(aes(wt, mpg)) + theme_mdgr()
-theme_mdgr <- function(base_size = 13){
+theme_mdgr <- function(base_size = 13, base_family = "Lato Light"){
 
-  ggplot2::theme_bw(base_size = base_size, base_family = "Lato Light") %+replace%
+  ggplot2::theme_bw(base_size = base_size, base_family = base_family) %+replace%
     ggplot2::theme(
       panel.background = element_blank(),
       plot.background = element_blank(),

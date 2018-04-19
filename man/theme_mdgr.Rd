@@ -4,10 +4,12 @@
 \alias{theme_mdgr}
 \title{Personal Custom Theme}
 \usage{
-theme_mdgr(base_size = 13)
+theme_mdgr(base_size = 13, base_family = "Lato Light")
 }
 \arguments{
 \item{base_size}{base font size}
+
+\item{base_family}{base font family}
 }
 \description{
 Theme based on the \code{ggplot2 theme_bw} with modified font (UNIX use only)
