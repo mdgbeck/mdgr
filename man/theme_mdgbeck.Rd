@@ -12,3 +12,7 @@ theme_mdgbeck(base_size = 11)
 \description{
 Theme based on old theme
 }
+\examples{
+library(ggplot2)
+ggplot(mtcars) + geom_point(aes(wt, mpg)) + theme_mdgbeck()
+}

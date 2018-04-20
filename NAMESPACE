@@ -2,4 +2,5 @@
 
 export(theme_mdgbeck)
 export(theme_mdgr)
+export(theme_mdgrpub)
 import(ggplot2)

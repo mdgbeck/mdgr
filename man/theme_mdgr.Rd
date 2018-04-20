@@ -14,3 +14,7 @@ theme_mdgr(base_size = 13, base_family = "Lato Light")
 \description{
 Theme based on the \code{ggplot2 theme_bw} with modified font (UNIX use only)
 }
+\examples{
+library(ggplot2)
+ggplot(mtcars) + geom_point(aes(wt, mpg)) + theme_mdgr()
+}
