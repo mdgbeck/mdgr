@@ -28,7 +28,8 @@ theme_mdgrpub <- function(base_size = 12, base_family = "Lato"){
       strip.text = element_text(size = rel(1))) +
     theme(
       plot.title = element_text(family = "Lato Medium"),
-      axis.text = element_text(family = "Lato Light")
+      axis.text = element_text(family = "Lato Light"),
+      legend.text = element_text(family = "Lato Light")
     )
 
 }
