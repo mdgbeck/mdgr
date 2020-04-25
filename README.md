@@ -1,6 +1,9 @@
 # mdgr
 personal r package
 
+install with
+devtools::install_github("mdgbeck/mdgr")
+
 ggplot2 theme includes font 
 
 working to add documentation on how to add necessay families
