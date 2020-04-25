@@ -8,8 +8,8 @@ ggplot2 theme includes font
 
 working to add documentation on how to add necessay families
 
-install extrafonts package in r (install.packages('extrafonts'))
+install extrafont package in r (install.packages('extrafont'))
 
 uses lato font, not installed by default in ubuntu. (apt install fonts-lato)
 
-font_import()
+extrafont::font_import()
